@@ -1,9 +1,12 @@
-# Adaptive Learning in MCQ Selection
+#IntelliLearn: AI-Driven Adaptive Learning System for Personalized Education
 
-### Overview
-This project contains source code for Adaptive Learning in MCQ Selection. It is innovative way of learning which focuses on student's consitency to learn and grow. It is designed in such a way that the question bank (of 10 question) given to a student updates each time based on performance of student in previous quiz. If the user is new then a pre-assessment will be conducted for him/her which will have 10 question all from beginner level
-It provides a platform for practicing objective type questions for competitive exams with the concept of adaptive learning ; all the question are divided into three levels :-  beginner level questions which are the easier ones ; intermediate level questions which are the moderate level ; advanced level questions which are harder ones . 
-Firstly , the user have to attempt the pre-assessment test which consist of 10 questions ,  all of them being beginner level questions ; based on the performance in pre-assessment the user gets next set of 10 questions . every  set consist of 10 question each 
-for  example: if student answers correctly in the current question(say of intermediate level) then in the next set of test , he will get more questions from harder level(say of advanced level) and same if answered incorrectly then in the next set of test , more questions will be from easier level(say of beginner level).
-In this way , the user can easily track his/her progress and ensure the continuity in his/her preparation
-Also , users get detailed result of test as we provide the accuracy for each these 3 level of questions(i.e. beginner level , intermediate level , advanced level) . let's  suppose a user give test set of 10 question ( and in beginner there were 6 question in which he answered  2 correctly then , accuracy is 0.33 ;  in intermediate there were 3 question in which he answered  2 correctly then , accuracy is 0.67 ; in advanced there were 1 question in which he answered  1 correctly then , accuracy is 1) ; in case of 0 question attempted , accuracy is 1
+Traditional learning systems follow a one-size-fits-all approach, often failing to cater to the diverse learning needs of students. Some learners struggle with complex topics, while others find the content too easy, leading to disengagement and ineffective learning. The challenge is to develop an Adaptive Learning System that personalizes learning paths based on individual performance, engagement, and progress.
+
+The system should analyze students’ responses, accuracy, and time spent on questions to dynamically adjust their difficulty levels. Using machine learning models like Random Forest, Decision Trees, and K-Nearest Neighbors, the system will predict the optimal next question or topic for a student. The goal is to provide real-time, data-driven recommendations that enhance learning efficiency and retention.
+
+Key objectives include:
+
+Automated difficulty adjustment: Assigning questions based on prior accuracy and progress.
+Performance prediction: Forecasting student proficiency using past responses.
+Personalized feedback: Identifying weak areas and suggesting targeted learning materials.
+This adaptive system can revolutionize e-learning platforms, competitive exam preparation, and skill-based training by ensuring a tailored learning experience for every user. Your task is to build a robust model that effectively predicts learning paths and optimizes educational outcomes. 🚀
